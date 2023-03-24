@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/user.css">
+    </head>
+    <body>
+    <div class="header">
+        <h1>Welcome, {%email%} </h1>
+        
+      </div>
+      <div class="container">
+        <div class="user-details">
+        <pre><span id="user-details">Phone_number  </span><span id="ud1">:  {%ph%}</span> </pre>
+        <pre><span id="user-details">Email  </span><span id="ud2">:  {%email%}</span> </pre>
+        <pre><span id="user-details">Current plan  </span><span id="ud3">:  {%plan%}</span> </pre>
+        <pre><span id="user-details">Date of Purchase  </span><span id="ud4">:  {%date%}</span> </pre>
+        </div>
+      </div>
+      <br><br>
+      <div class="container1">
+        <a href="payment.html">
+        <!-- <button id="button1" onclick="">Procced to Payment</button></a> -->
+        <!-- <form action="payment">
+          <input type="submit">
+        </form> -->
+        <div class="b1">
+        <a href="payment">
+        <button id="button1">Proceed</button></a></div>
+        <div class="b2">
+        <a href="index.html">
+        <button id="button2">Back to Home</button></a></div>
+        <div class="b3">
+        <form action="delete">
+          <button id="button3">Cancel Current plan</button>
+        </form>
+      </div>
+      
+              </div>
+            </body>
+</html>
