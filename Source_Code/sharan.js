@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({
 // mongodb://localhost:27017/Sharan
 //Cloud connection String:
 // mongodb+srv://Saarani:6382117902@cluster0.5uqyt8v.mongodb.net/MiniProject
-mongoose.connect("mongodb://localhost:27017/Sharan",{
+mongoose.connect("mongodb+srv://sharan:6382117902@cluster0.tz2r8ee.mongodb.net/test",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
